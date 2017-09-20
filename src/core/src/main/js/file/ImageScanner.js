@@ -42,6 +42,7 @@ define(
             blobInfo: blobInfo
           });
         } else {
+          /*
           Conversions.uriToBlob(img.src).then(function (blob) {
             Conversions.blobToDataUri(blob).then(function (dataUri) {
               base64 = Conversions.parseDataUri(dataUri).data;
@@ -56,6 +57,7 @@ define(
           }, function (err) {
             reject(err);
           });
+          */
         }
 
         return;
